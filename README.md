@@ -1,4 +1,3 @@
-# bibliotech-java
 # Biblioteca Online em Java
 
 Bem-vindo ao repositório da Biblioteca Online em Java! Este projeto é uma implementação de uma pequena biblioteca online em Java, utilizando a biblioteca gráfica JavaSwing para a interface do usuário.
