@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.RegistroForm">
+  <grid id="27dc6" binding="RegistrePainel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="844" height="522"/>
+    </constraints>
+    <properties>
+      <background color="-9293454"/>
+      <font name="Cooper Black" size="24" style="0"/>
+    </properties>
+    <border type="bevel-raised"/>
+    <children>
+      <component id="8c360" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-856373"/>
+          <font name="Cooper Black" size="72" style="0"/>
+          <text value="Biblioteca Premium 📚"/>
+        </properties>
+      </component>
+      <component id="b09dc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Cooper Black" size="28" style="0"/>
+          <foreground color="-16448251"/>
+          <text value="Nome e Sobrenome"/>
+        </properties>
+      </component>
+      <component id="9c157" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="24" style="0"/>
+        </properties>
+      </component>
+      <component id="4bd4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="28" style="0"/>
+          <foreground color="-16448251"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="8ea85" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="24" style="0"/>
+        </properties>
+      </component>
+      <component id="874cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="28" style="0"/>
+          <foreground color="-16448251"/>
+          <text value="Senha"/>
+        </properties>
+      </component>
+      <component id="a2a97" class="javax.swing.JPasswordField" binding="pfPassword">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="24" style="0"/>
+        </properties>
+      </component>
+      <component id="472fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="28" style="0"/>
+          <foreground color="-16448251"/>
+          <text value="Confirm password"/>
+        </properties>
+      </component>
+      <component id="a6aac" class="javax.swing.JPasswordField" binding="pfConfirmPassword">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="24" style="0"/>
+        </properties>
+      </component>
+      <component id="d2612" class="javax.swing.JButton" binding="btnRegistro">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Cooper Black" size="24" style="0"/>
+          <text value="Registrar"/>
+        </properties>
+      </component>
+      <component id="7778c" class="javax.swing.JButton" binding="btnCancelar">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Cooper Black" size="24" style="0"/>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
